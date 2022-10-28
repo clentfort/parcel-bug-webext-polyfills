@@ -1,0 +1,16 @@
+{
+  "name": "@cambridgeintelligence/sdk-devtools",
+  "version": "1.0.0",
+  "source": ["src/manifest.json"],
+  "scripts": {
+    "start": "parcel watch --host localhost ",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.10.0"
+  },
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
